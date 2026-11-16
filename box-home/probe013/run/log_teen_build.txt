@@ -1,0 +1,4 @@
+SLIDERS {'gender': 1.0, 'age': 0.27, 'muscle': 0.4, 'weight': 0.35, 'height': 0.5, 'caucasian': 1, 'african': 0, 'asian': 0}
+00:42.634  render           | Saved: '/Users/nick/probe013/run/outfit_full.png'
+01:02.964  render           | Saved: '/Users/nick/probe013/run/outfit_upper.png'
+STATS {"build_seconds": 6.8, "render_seconds": 38, "print_uv_fit_error": 0.0009, "print_fit_vertices": 58, "sim_seconds": 0, "tee_points_pushed": 0}

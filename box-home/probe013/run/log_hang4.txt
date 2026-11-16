@@ -1,0 +1,18 @@
+SLIDERS {'gender': 1.0, 'age': 0.27, 'muscle': 0.8, 'weight': 0.35, 'height': 0.5, 'caucasian': 1, 'african': 0, 'asian': 0}
+SHAPE edits 3
+CHEST edit 0.02 radius 0.13
+HEM lowest 0.729 cut at 0.748 top 1.235
+TEE modifiers ['ARMATURE', 'SUBSURF']
+HANG shirt verts 2734 arm groups 6 sleeve verts 634
+HANG chest z 0.948, hem 0.748 -> 0.678, axis (-0.001, -0.029), moved max 91 mm, mean 44 mm
+HANG sleeve L: 499 verts, bone length 0.204, sleeve reach 0.111
+HANG sleeve R: 567 verts, bone length 0.204, sleeve reach 0.126
+HANG taubin 6 rounds, 194 edge verts held, moved max 21.4 mm
+HANG neck: old opening 0.129 x 0.100 m, new 0.169 x 0.128 m, 105 verts removed
+HANG shirt modifiers ['SUBSURF'] subdivision [3]
+HANG edges found: 4; bands made: ['TeeNeckBand', 'TeeCuff0', 'TeeCuff1', 'TeeHemBand']; neck z 1.217, hem z 0.678
+01:42.955  render           | Saved: '/Users/nick/probe013/run/outfit_ref00.png'
+02:33.207  render           | Saved: '/Users/nick/probe013/run/outfit_ref58.png'
+03:13.497  render           | Saved: '/Users/nick/probe013/run/outfit_back.png'
+03:51.260  render           | Saved: '/Users/nick/probe013/run/outfit_side.png'
+STATS {"build_seconds": 8.9, "render_seconds": 202, "print_uv_fit_error": 0.00101, "print_fit_vertices": 60, "sim_seconds": 0, "tee_points_pushed": 0}

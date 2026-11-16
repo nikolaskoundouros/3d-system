@@ -1,0 +1,67 @@
+- [**SMALLEST FIX FIRST**](smallest-fix-first.md) - fix only the broken thing; revert a failed change first. TRIGGER: a fix fails first try.
+- [**TRIPLE CHECK BEFORE SHOWING**](triple-check-before-showing.md) - never one measurement; frames AND video. TRIGGER: before showing Nick anything.
+- [No reflexive agreement](no-reflexive-agreement.md) - never open with "you're right"; diagnose, then fix.
+- [Machine + render workflow](machine-and-render-workflow.md) - M1 8GB; render local then Drive.
+- [Render only flagged sequences](render-only-flagged-sequences.md) - re-render only what he flags.
+- [Show before approve](show-before-approve.md) - SendUserFile every deliverable, WAIT for approval.
+- [No em/en dashes](no-em-dashes.md) - none in any deliverable; a hook blocks them.
+- [Approval before 3D generation](approval-before-3d-generation.md) - no generate_3d or paid re-gen without a yes.
+- [**CHALLENGE MY CALLS**](challenge-my-calls.md) - disagree in one line + my pick. TRIGGER: an instruction I think is a mistake.
+- [Short answers](short-answers.md) - HARD CAP: 2 sentences + 4 bullets, bold carries the answer.
+- [No rendering without permission](no-rendering-without-permission.md) - never render unless he says so.
+- [Research before execute](research-before-execute.md) - read docs first; smallest test before anything expensive.
+- [Route around blockers](route-around-blockers.md) - on a wall, find a workaround and finish.
+- [Never save Blender without a filepath](never-save-blender-without-filepath.md) - check bpy.data.filepath first.
+- [**RULE 1: ASK, NEVER INVENT**](ask-never-invent.md) - never invent facts or numbers. TRIGGER: more structure than his input had substance.
+- [Verify before asserting](verify-before-asserting.md) - check it or say I'm not sure.
+- [Eevee assistant](eevee-assistant.md) - voice assistant ~/AgencyOS/eevee (4730).
+- [**NO DEPLOY WITHOUT GO**](no-deploy-without-go.md) - nothing outward-facing without an explicit go. TRIGGER: any deploy or publish.
+- [Blender Engine](blender-engine.md) - ~/Desktop/blender-engine (8520).
+- [Video frames every second](video-frames-every-second.md) - any video: one frame per second.
+- [**Agents never touch git**](agents-never-touch-git.md) - a builder once deleted a .git. TRIGGER: every builder/reviewer prompt.
+- [**ANSWER PLAINLY, ASK WHEN UNSURE**](answer-plainly-ask-when-unsure.md) - plain answer + what I need. TRIGGER: every reply proposing work.
+- [**LOCK PROPS, NOT JUST FACES**](lock-props-not-just-faces.md) - props match across frames. TRIGGER: any multi-shot sequence.
+- [Render desk](render-desk.md) - upload a .blend at render.nofilter.com.cy, get an mp4.
+- [Say when stuck](say-when-stuck.md) - side bug >5 min: say so, give ETAs.
+- [**ZACK REMAKES ONLY**](zack-remakes-only.md) - every clip remakes one Zack Short. TRIGGER: any Zack-style clip.
+- [Zack clip skill](zack-clip-skill.md) - ~/.claude/skills/zack-clip; invoke /zack-clip first.
+- [clip-checks](clip-checks.md) - pacing/mix/detail checks, ~/Desktop/clip-checks.
+- [Clip box](clip-box.md) - ~/Desktop/clip-box: Hetzner changes as exact copies.
+- [**DON'T RE-ASK**](dont-reask.md) - never re-list asks already handed over. TRIGGER: "what do you need from me".
+- [Remakes: no try limit](remakes-no-try-limit.md) - tutorial remakes have no try cap.
+- [Remake reports](remake-reports.md) - ~/Desktop/remake-reports: page per remake.
+- [**NO HUMGEN, FIX BLOCKERS IN PLACE**](no-humgen-fix-blockers.md) - characters from scratch; a blocked remake continues. TRIGGER: any stand-in or blocked remake.
+- [**RULES ARE GATES**](rules-are-gates.md) - a rule counts only if written where read AND enforced. TRIGGER: new rule or relay.
+- [**POD DAY CAP REMOVED 15 Nov**](pod-day-cap-removed-2026-11-15.md) - never ask about the workbench cap again. TRIGGER: any pod refused or cap question.
+- [Pod limits raised until 9 Nov](pod-limits-raised-until-1109.md) - restore from render.env.bak-2026-11-06.
+- [**CHECKERS DONT SET SCOPE**](checkers-dont-set-scope.md) - out-of-scope findings go on a list for Nick. TRIGGER: any review loop.
+- [**PLAN TOGETHER FIRST**](plan-together-before-work.md) - [other project]: agree a plan before building. TRIGGER: any [other project] work.
+- [**COMPARE TO THE REFERENCE AFTER STILLS**](compare-to-reference-after-stills.md) - list every difference before he sees it. TRIGGER: any still from a reference.
+- [Hero character](hero-character.md) - ~/Desktop/hero (look11/pose15).
+- [**DECIDE ALONE WHEN HE LEAVES**](decide-alone-when-told.md) - no questions until he is back. TRIGGER: he says he is leaving.
+- [**ANALYZE MEANS ANALYZE**](analyze-means-analyze.md) - deliver the analysis and stop. TRIGGER: any reference he sends.
+- [**I CAN HEAR NOW**](hearing-tool.md) - tools/hear.py before claiming anything about audio. TRIGGER: any audio.
+- [Match the reference's motion](motion-match-reference.md) - measure per-second motion; every second moves.
+- [Daily budget](daily-budget.md) - Higgsfield 20 / ElevenLabs 5000 credits a day, gate rule 13.
+- [**CLIP GATE**](clip-gate.md) - enforced checkpoints on clip-a. TRIGGER: any clip render.
+- [**FAILED CHECK MEANS STOP**](failed-check-means-stop.md) - never substitute another tree's pass. TRIGGER: a check fails before a push or PR.
+- [Spiti](spiti.md) - ~/Desktop/spiti:8560; SPITI_PAGES=0 off.
+- [**RESEARCH BY TOPIC**](research-by-topic.md) - remake the best tutorials first. TRIGGER: any 3D research brief.
+- [**PICTURE WITH EVERY ASK**](picture-with-every-ask.md) - ref-vs-ours picture with every ask. TRIGGER: any ask about visual work.
+- [Animation platform](animation-platform.md) - 4 Nov: one-job agents; waiting on a sample storyboard.
+- [**FINISH BEFORE NEW DOORS**](finish-before-new-doors.md) - one task at a time. TRIGGER: any new idea mid-task.
+- [**Boxes taken down 5 Nov**](boxes-taken-down-2026-11-05.md) - only 3d-system left (37.27.148.115).
+- [**POD GUARD**](pod-guard-before-every-run.md) - hard time limit on every pod run. TRIGGER: any pod run.
+- [**DETAIL, NOT JUST SHAPES**](storyboard-3d-detail-not-just-shapes.md) - he judges textures, not only shapes. TRIGGER: any 3D built from a picture.
+- [**AOW 3D RUNS ON THE BOX**](aow-3d-runs-on-box.md) - AOW Blender runs from root@37.27.148.115. TRIGGER: any AOW 3D work.
+- [**TAILOR THE GARMENT, ONE LAYER**](tailor-the-garment-one-layer.md) - reshape the garment itself. TRIGGER: any character clothing.
+- [PlotPointe](plotpointe.md) - AOW writers app; Animate page + live Blender, ~/Projects/plotpointe-animate.
+- [Clip analyzer](clip-analyzer.md) - ~/Projects/clip-analyzer (8570): per-frame camera motion, live page.
+- [**REUSE HIS TOOLS FIRST**](reuse-nicks-tools-first.md) - find and extend what he built. TRIGGER: proposing any tool he may already have.
+- [Blender live on the pod](blender-live-on-pod.md) - GUI Blender + MCP on the pod; sculpt and particle comb brushes work from code.
+- [**BETTER OR FASTER? SAY SO**](better-faster-say-so.md) - see a better/faster route: tell him in one line + my pick, decide together. TRIGGER: any task.
+- [**POD OFF AFTER 10 IDLE MIN**](pod-idle-10-min-stop.md) - enforced by pod-guard.timer on the box, POD_GUARD=0 off. TRIGGER: any pod up at turn end.
+- [**Blender skills library**](blender-skills-library.md) - /blender router + /blender-hair; more topic skills planned. TRIGGER: any Blender job.
+- [**Mom hair: RESUME**](mom-character-hair.md) - mean IoU 0.794, pod down, rebuild from scripts; handoff ~/AgencyOS/handoffs/2026-11-15-mom-hair.md. TRIGGER: 'resume mom hair'.
+- [**Hair process: research every step**](hair-process-research-every-step.md) - re-read research each step; say code vs hands; switch plan instantly. TRIGGER: any hair or Blender build step.
+- [**System that doesn't need Nick**](system-that-doesnt-need-nick.md) - build tools to remove blockers (outline, cameras, score); never idle-ask. TRIGGER: any blocker or end of turn.

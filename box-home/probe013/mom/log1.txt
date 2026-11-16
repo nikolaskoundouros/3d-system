@@ -1,0 +1,7 @@
+objects: ['Mom', 'Mom_eyebrow005', 'Mom_eyelashes01', 'Mom_female_casualsuit01', 'Mom_low-poly', 'Mom_ponytail01', 'Mom_shoes05', 'Mom_teeth_base']
+top / trousers split at z 0.945
+crest fit error 0.0015 on 25 points
+00:21.758  render           | Saved: '/Users/nick/probe013/mom/mom_full.png'
+00:39.491  render           | Saved: '/Users/nick/probe013/mom/mom_upper.png'
+00:58.199  render           | Saved: '/Users/nick/probe013/mom/mom_close.png'
+STATS height 1.664 m, sliders {'gender': 0.0, 'age': 0.62, 'muscle': 0.45, 'weight': 0.45, 'height': 0.55, 'proportions': 0.6, 'cupsize': 0.62, 'firmness': 0.6, 'caucasian': 1, 'african': 0, 'asian': 0}, 58 s

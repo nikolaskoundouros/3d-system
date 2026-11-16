@@ -1,0 +1,11 @@
+SLIDERS {'gender': 1.0, 'age': 0.27, 'muscle': 0.8, 'weight': 0.35, 'height': 0.5, 'caucasian': 1, 'african': 0, 'asian': 0}
+SHAPE edits 6
+CHEST edit 0.02 radius 0.13
+HEM lowest 0.727 cut at 0.747 top 1.236
+NORMAL strength 1.0
+TEE modifiers ['ARMATURE', 'SUBSURF']
+01:53.376  render           | Saved: '/Users/nick/probe013/run/outfit_ref00.png'
+03:02.268  render           | Saved: '/Users/nick/probe013/run/outfit_ref58.png'
+03:53.680  render           | Saved: '/Users/nick/probe013/run/outfit_back.png'
+04:41.622  render           | Saved: '/Users/nick/probe013/run/outfit_side.png'
+STATS {"build_seconds": 9.2, "render_seconds": 254, "print_uv_fit_error": 0.00101, "print_fit_vertices": 60, "sim_seconds": 0, "tee_points_pushed": 0}

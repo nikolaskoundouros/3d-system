@@ -1,0 +1,20 @@
+objects: ['Mom', 'Mom_eyebrow002', 'Mom_eyelashes01', 'Mom_female_casualsuit01', 'Mom_low-poly', 'Mom_shoes05', 'Mom_teeth_base', 'Mom_tongue01']
+top / trousers split at z 0.946
+crest fit error 0.0022 on 24 points
+collar round the neck at z 1.422, neck radius 0.054, V 0.3/0.18 rad
+hair: bun at [0.    0.041 1.614], eye z 1.552, chin z 1.457
+bangs guides: n 140 root |x| [0.01, 0.026, 0.042] tip |x| [0.018, 0.038, 0.053] root h [0.053, 0.079, 0.096] tip h [-0.016, -0.001, 0.018] root back [0.036, 0.049, 0.071] tip back [-0.003, 0.009, 0.023] len [0.083, 0.107, 0.131]
+Traceback (most recent call last):
+  File "/Users/nick/probe013/mom/mom.py", line 302, in <module>
+    mom_hair.half_up_bun(scene, base_verts, mom)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nick/probe013/mom/mom_hair.py", line 355, in half_up_bun
+    add_texture(objs[name], name)
+    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/Users/nick/probe013/mom/mom_hair.py", line 195, in add_texture
+    n = tree.nodes.new("GeometryNodeGroup"); n.node_tree = _hair_group("Clump Hair Curves")
+                                                           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nick/probe013/mom/mom_hair.py", line 173, in _hair_group
+    with bpy.data.libraries.load(HAIR_ASSETS, link=False) as (src, dst):
+         ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: load:  failed to open blend file

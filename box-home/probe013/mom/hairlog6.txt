@@ -1,0 +1,12 @@
+objects: ['Mom', 'Mom_eyebrow002', 'Mom_eyelashes01', 'Mom_female_casualsuit01', 'Mom_low-poly', 'Mom_shoes05', 'Mom_teeth_base']
+top / trousers split at z 0.946
+crest fit error 0.0022 on 24 points
+collar round the neck at z 1.422, neck radius 0.054, V 0.3/0.18 rad
+hair: bun at [0.    0.041 1.614], eye z 1.552, chin z 1.457
+bangs guides: n 140 root |x| [0.01, 0.026, 0.042] tip |x| [0.018, 0.038, 0.053] root h [0.053, 0.079, 0.096] tip h [-0.016, -0.001, 0.018] root back [0.036, 0.049, 0.071] tip back [-0.003, 0.009, 0.023] len [0.083, 0.107, 0.131]
+hair: {'top': 42000, 'lower': 30000, 'bangs': 1810, 'streaks': 390, 'pieces': 1500, 'bun': 7000} 29 s
+01:08.185  render           | Saved: '/Users/nick/probe013/mom/mom_hfront.png'
+01:46.596  render           | Saved: '/Users/nick/probe013/mom/mom_h34.png'
+02:30.924  render           | Saved: '/Users/nick/probe013/mom/mom_hside.png'
+03:12.287  render           | Saved: '/Users/nick/probe013/mom/mom_hback.png'
+STATS height 1.662 m, sliders {'gender': 0.0, 'age': 0.7, 'muscle': 0.45, 'weight': 0.5, 'height': 0.55, 'proportions': 0.6, 'cupsize': 0.75, 'firmness': 0.6, 'caucasian': 1, 'african': 0, 'asian': 0}, 192 s

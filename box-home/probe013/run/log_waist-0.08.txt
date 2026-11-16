@@ -1,0 +1,5 @@
+SLIDERS {'gender': 1.0, 'age': 0.27, 'muscle': 0.4, 'weight': 0.35, 'height': 0.5, 'caucasian': 1, 'african': 0, 'asian': 0}
+HEM lowest 0.726 cut at 0.742 top 1.236
+TEE modifiers ['ARMATURE', 'SUBSURF']
+00:57.181  render           | Saved: '/Users/nick/probe013/run/outfit_upper.png'
+STATS {"build_seconds": 7.6, "render_seconds": 29, "print_uv_fit_error": 0.0009, "print_fit_vertices": 58, "sim_seconds": 0, "tee_points_pushed": 0}

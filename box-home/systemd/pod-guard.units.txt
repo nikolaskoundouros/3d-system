@@ -1,0 +1,20 @@
+# /etc/systemd/system/pod-guard.service
+[Unit]
+Description=Terminate workbench pods idle 10 min (Nick 15 Nov 2026); off switch POD_GUARD=0 in /etc/pod-guard.env
+[Service]
+Type=oneshot
+User=nick
+WorkingDirectory=/Users/nick/Desktop/render-desk
+ExecStart=/usr/bin/python3 /Users/nick/Desktop/render-desk/tools/pod_guard.py
+MemoryMax=150M
+TimeoutStartSec=600
+
+# /etc/systemd/system/pod-guard.timer
+[Unit]
+Description=Run pod-guard every minute
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=60s
+AccuracySec=5s
+[Install]
+WantedBy=timers.target
